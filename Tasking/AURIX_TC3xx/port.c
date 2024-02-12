@@ -43,7 +43,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
-/* Prgoram status word macros */
+/* PSW (Program Status Word) macros */
 #define portINITIAL_SYSTEM_PSW \
     ( 0x000008FFUL ) /* Supervisor Mode, MPU Register Set 0 and Call Depth Counting disabled. */
 
